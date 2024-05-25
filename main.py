@@ -16,7 +16,6 @@ os.system("cls")
 
 print(f'{'-'*35}LISTA DE PESSOAS{'-'*35}')
 
-
 cadastro = input('Digite o nome a ser pesquisado: ').capitalize()
 
 try:
@@ -28,7 +27,7 @@ except:
 
 for cadastro in cadastros:
     print(cadastro)
-
+# -------------------------------------------------- ACABA AQUI!!!!!!!!
 
 # lista de frutas
 frutas =  ['Maracujá', 'Banana', 'Maçã']
