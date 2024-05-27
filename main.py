@@ -52,3 +52,21 @@ cadastros[indice] = input('Informe o novo nome: ')
 # exibe a lista
 for cadastro in cadastros:
     print(cadastro)
+
+posicao = int(input('Informe o nome que deseja excluir: '))
+
+if posicao > 0:
+    posicao -= 1
+else:
+    indice = ''
+
+# deleta item da lista
+try:
+    del(cadastros[posicao])
+
+except:
+    print('Não foi possível deletar. ')
+
+# exube a lista
+for cadastro in cadastros:
+    print(cadastro)
